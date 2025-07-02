@@ -14,6 +14,7 @@ public class registerationpage {
   @Test
   public void f() {
 	  String parentid=driver.getWindowHandle();
+	  System.out.println("hii");
 	  System.out.println(parentid);
 	  driver.findElement(By.id("firstname")).sendKeys("loki");
 	  driver.findElement(By.id("mat-input-1")).sendKeys("r");
@@ -35,7 +36,7 @@ public class registerationpage {
 	  Actions a2 =new Actions(driver);
 	  a2.moveToElement(w2).doubleClick().build().perform();
 	  driver.findElement(By.xpath("/html/body/app-root/app-main/app-form/div/form/button")).click();	  
-	  
+	  System.out.println("hello00");
   
   }
   @BeforeMethod
