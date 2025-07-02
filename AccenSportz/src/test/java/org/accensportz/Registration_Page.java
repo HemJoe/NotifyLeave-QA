@@ -15,15 +15,15 @@ public class Registration_Page {
   @Test(priority=0)
   public void f() throws InterruptedException {
 	  
-
+	  //tfvfv
 	  
 	  driver.findElement(By.xpath("/html/body/app-root/app-header/header/div/div/div/div[2]/ul/li[1]/a")).click();
 	  Thread.sleep(1000);
-	  driver.findElement(By.id("firstname")).sendKeys("Virat");
+	  driver.findElement(By.id("firstname")).sendKeys("Santhosh");
 	  Thread.sleep(1000);
 	  driver.findElement(By.id("mat-input-1")).sendKeys("Kohli");
 	  Thread.sleep(1000);
-	  driver.findElement(By.id("Date")).sendKeys("05/11/1988");
+	  driver.findElement(By.id("Date")).sendKeys("9/9/9");
 	  Thread.sleep(1000);
 	  driver.findElement(By.id("phonenumber")).sendKeys("9785476982");
 	  Thread.sleep(1000);
