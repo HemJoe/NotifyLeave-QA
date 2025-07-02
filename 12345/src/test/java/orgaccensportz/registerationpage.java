@@ -14,7 +14,7 @@ public class registerationpage {
   @Test
   public void f() {
 	  String parentid=driver.getWindowHandle();
-	  System.out.println("hi");
+	  System.out.println("hii");
 	  System.out.println(parentid);
 	  driver.findElement(By.id("firstname")).sendKeys("loki");
 	  driver.findElement(By.id("mat-input-1")).sendKeys("r");
