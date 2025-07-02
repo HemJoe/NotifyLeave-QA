@@ -36,7 +36,7 @@ public class registerationpage {
 	  Actions a2 =new Actions(driver);
 	  a2.moveToElement(w2).doubleClick().build().perform();
 	  driver.findElement(By.xpath("/html/body/app-root/app-main/app-form/div/form/button")).click();	  
-	  
+	  System.out.println("hello");
   
   }
   @BeforeMethod
