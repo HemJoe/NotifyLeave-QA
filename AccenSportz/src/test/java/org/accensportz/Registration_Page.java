@@ -15,6 +15,8 @@ public class Registration_Page {
   @Test(priority=0)
   public void f() throws InterruptedException {
 	  
+	  //ygghnygnyjyhg
+	  
 	  driver.findElement(By.xpath("/html/body/app-root/app-header/header/div/div/div/div[2]/ul/li[1]/a")).click();
 	  Thread.sleep(1000);
 	  driver.findElement(By.id("firstname")).sendKeys("Virat");
